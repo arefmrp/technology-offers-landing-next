@@ -1,0 +1,154 @@
+@media screen and (max-width: 460px) {
+    .questions-section .row div:nth-child(1) .accordion-cs .card-link i {
+        display: none;
+    }
+    .navbar-cs-item {
+        display: none;
+    }
+    .navbar-cs-item:nth-child(3) {
+        display: block;
+    }
+    .home-section {
+        width: 100%;
+        height: 500px auto;
+    }
+    .home-section-image {
+        width: 100%;
+        height: 400px;
+    }
+    .home-section-image img {
+        height: 100%;
+        width: 100%;
+    }
+    .countdown-section-div {
+        width: 100%;
+        height: 130px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .countdown-section-div-item {
+        background-color: #ffffff;
+        height: 80px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0px;
+        border: none;
+    }
+    .countdown-section-div-item-texts h3 {
+        font-size: 22px;
+        font-family: aviny;
+        color: #1d2124;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .countdown-section-div-item-texts h4 {
+        font-size: 20px;
+        font-family: aviny;
+        color: #1d2124;
+    }
+    .nav-pills-links-section {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .nav-pills .nav-item {
+        flex-grow: 1;
+    }
+    .footer-cs1 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer-cs-item {
+        margin: 20px 0;
+        order: 1;
+    }
+    .footer-cs-item:nth-child(3) {
+        order: 2;
+    }
+}
+
+@media screen and (min-width: 460px) and (max-width: 900px) {
+    .navbar-cs-item {
+        display: none;
+    }
+    .navbar-cs-item:nth-child(1) {
+        display: block;
+    }
+    .navbar-cs-item:nth-child(2) {
+        display: block;
+    }
+    .home-section {
+        width: 100%;
+        height: 500px auto;
+    }
+    .home-section-image {
+        width: 100%;
+        height: 400px;
+    }
+    .home-section-image img {
+        height: 100%;
+        width: 100%;
+    }
+    .countdown-section-div {
+        width: 100%;
+        height: 130px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .countdown-section-div-item {
+        background-color: #ffffff;
+        height: 100px;
+        width: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0px;
+        border: none;
+    }
+    .countdown-section-div-item-texts h3 {
+        font-size: 22px;
+        font-family: aviny;
+        color: #1d2124;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .countdown-section-div-item-texts h4 {
+        font-size: 20px;
+        font-family: aviny;
+        color: #1d2124;
+    }
+    .questions-section .row div:nth-child(1) .accordion-cs .card-link i {
+        display: none;
+    }
+    .nav-pills-links-section {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .nav-pills .nav-item {
+        flex-grow: 1;
+    }
+    .footer-cs1 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer-cs-item {
+        margin: 20px 0;
+        order: 1;
+    }
+    .footer-cs-item:nth-child(3) {
+        order: 2;
+    }
+}

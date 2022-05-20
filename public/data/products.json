@@ -1,0 +1,242 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "لپتاپ x541u ایسوس",
+      "category": "asus",
+      "discount": 24,
+      "image": "asus1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "لپتاپ x542u ایسوس",
+      "category": "asus",
+      "discount": 22,
+      "image": "asus2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "لپتاپ گیمینگ x541u ایسوس",
+      "category": "asus",
+      "discount": 21,
+      "image": "asus3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "لپتاپ x233h ایسوس",
+      "category": "asus",
+      "discount": 20,
+      "image": "asus4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "لپتاپ x234h ایسوس",
+      "category": "asus",
+      "discount": 15,
+      "image": "asus5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "لپتاپ x545u ایسوس",
+      "category": "asus",
+      "discount": 24,
+      "image": "asus6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "لپتاپ x542u ایسر",
+      "category": "acer",
+      "discount": 22,
+      "image": "acer2.jpg"
+    },
+    {
+      "id": 8,
+      "name": "لپتاپ گیمینگ x541u ایسر",
+      "category": "acer",
+      "discount": 21,
+      "image": "acer3.jpg"
+    },
+    {
+      "id": 9,
+      "name": "لپتاپ x233h ایسر",
+      "category": "acer",
+      "discount": 18,
+      "image": "acer4.jpg"
+    },
+    {
+      "id": 10,
+      "name": "لپتاپ predator-h ایسر",
+      "category": "acer",
+      "discount": 15,
+      "image": "acer5.jpg"
+    },
+    {
+      "id": 11,
+      "name": "لپتاپ predator ایسر",
+      "category": "acer",
+      "discount": 17,
+      "image": "acer1.jpg"
+    },
+    {
+      "id": 12,
+      "name": "لپتاپ legion لنوو",
+      "category": "lenovo",
+      "discount": 14,
+      "image": "lenovo1.jpg"
+    },
+    {
+      "id": 13,
+      "name": "لپتاپ legion165 لنوو",
+      "category": "lenovo",
+      "discount": 13,
+      "image": "lenovo2.jpg"
+    },
+    {
+      "id": 14,
+      "name": "لپتاپ legion125 لنوو",
+      "category": "lenovo",
+      "discount": 13,
+      "image": "lenovo3.jpg"
+    },
+    {
+      "id": 15,
+      "name": "لپتاپ legion45 لنوو",
+      "category": "lenovo",
+      "discount": 13,
+      "image": "lenovo3.jpg"
+    },
+    {
+      "id": 16,
+      "name": "لپتاپ legion45 لنوو",
+      "category": "lenovo",
+      "discount": 13,
+      "image": "lenovo4.jpg"
+    },
+    {
+      "id": 17,
+      "name": "لپتاپ apple اپل",
+      "category": "apple",
+      "discount": 13,
+      "image": "apple1.jpg"
+    },
+    {
+      "id": 18,
+      "name": "لپتاپ apple-m1 اپل",
+      "category": "apple",
+      "discount": 13,
+      "image": "apple2.jpg"
+    },
+    {
+      "id": 19,
+      "name": "لپتاپ apple-m2-128 اپل",
+      "category": "apple",
+      "discount": 13,
+      "image": "apple3.jpg"
+    },
+    {
+      "id": 20,
+      "name": "لپتاپ apple-m7u-256 اپل",
+      "category": "apple",
+      "discount": 13,
+      "image": "apple4.jpg"
+    },
+    {
+      "id": 21,
+      "name": "لپتاپ poco-m7u-256 شیاومی",
+      "category": "xiaomi",
+      "discount": 19,
+      "image": "xiaomi1.jpg"
+    },
+    {
+      "id": 22,
+      "name": "لپتاپ poco-m4u-512 شیاومی",
+      "category": "xiaomi",
+      "discount": 29,
+      "image": "xiaomi2.jpg"
+    },
+    {
+      "id": 23,
+      "name": "لپتاپ poco-l8u-512 شیاومی",
+      "category": "xiaomi",
+      "discount": 22,
+      "image": "xiaomi3.jpg"
+    },
+    {
+      "id": 24,
+      "name": "موبایل poco-l8u-512 شیاومی",
+      "category": "xiaomi",
+      "discount": 24,
+      "image": "xiaomi4.jpg"
+    },
+    {
+      "id": 25,
+      "name": "دل latitude-l8u-512 لپ تاپ",
+      "category": "dell",
+      "discount": 24,
+      "image": "dell1.jpg"
+    },
+    {
+      "id": 26,
+      "name": "لپتاپ latitude-443x2 دل",
+      "category": "dell",
+      "discount": 24,
+      "image": "dell2.jpg"
+    },
+    {
+      "id": 27,
+      "name": "لپتاپ latitude-563x2 دل",
+      "category": "dell",
+      "discount": 26,
+      "image": "dell3.jpg"
+    },
+    {
+      "id": 28,
+      "name": "لپتاپ latitude-563u2 دل",
+      "category": "dell",
+      "discount": 21,
+      "image": "dell4.jpg"
+    },
+    {
+      "id": 29,
+      "name": "لپتاپ latitude-567u2 دل",
+      "category": "dell",
+      "discount": 21,
+      "image": "dell5.jpg"
+    },
+    {
+      "id": 30,
+      "name": "لپتاپ legion5 لنوو",
+      "category": "lenovo",
+      "discount": 23,
+      "image": "lenovo6.jpg"
+    },
+    {
+      "id": 31,
+      "name": "موبایل s20-ultra سامسونگ",
+      "category": "samsung",
+      "discount": 13,
+      "image": "samsung1.jpg"
+    },
+    {
+      "id": 32,
+      "name": "موبایل s22-proسامسونگ",
+      "category": "samsung",
+      "discount": 13,
+      "image": "samsung2.jpg"
+    },
+    {
+      "id": 33,
+      "name": "موبایل p22-ultra سامسونگ",
+      "category": "samsung",
+      "discount": 18,
+      "image": "samsung3.jpg"
+    },
+    {
+      "id": 34,
+      "name": "موبایل m22-lightسامسونگ",
+      "category": "samsung",
+      "discount": 16,
+      "image": "samsung4.jpg"
+    }
+  ]
+}
