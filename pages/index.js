@@ -1,12 +1,14 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import {useEffect} from "react";
+import {useEffect, useRef, useState} from "react";
 import {productsFetch} from "../lib/productsFetch";
 import {detailsFetch} from "../lib/detailsFetch";
 import ProductItem from "../components/productItem";
 import AccordionItem from "../components/AccordionItem";
 import BrandItem from "../components/BrandItem";
+import {NextSeo} from "next-seo";
+import Count from "./../components/Count";
 
 
 // Import Swiper React components
@@ -22,14 +24,46 @@ import 'swiper/css';
 
 
 export default function Home(props) {
+  const [phone,setPhone] = useState(0)
+
   let products = props.productItems.products;
   let questions = props.detailsItems.questions;
   let agencies = props.detailsItems.agencies;
   let brands = props.detailsItems.brands;
 
+  const setPhoneInput = (e) => {
+    setPhone(e.target.value)
+  }
+  const sendPhone = (e) => {
+    e.preventDefault();
+    alert(phone)
+    setPhone('')
+  }
+
 
   return (
     <div>
+      <NextSeo
+          title="Technology Landing Blog"
+          titleTemplate="Technology Landing Blog"
+          defaultTitle="ArefMrp"
+          description="im Arefmrp , i decided build landing project in technology field and publish on github "
+          canonical="https://www.arefmrp.ir"
+          openGraph={{
+            url: "https://www.arefmrp.ir/",
+            title: "Arefmrp",
+            description: "im Arefmrp , i decided build landing project in technology field and publish on github",
+            images: [
+              {
+                url: "/og-image.png",
+                width: 800,
+                height: 420,
+                alt: "arefmrp-project",
+              },
+            ],
+          }}
+
+      />
 
 
       <nav className="navbar-cs-section " >
@@ -60,6 +94,9 @@ export default function Home(props) {
 
       <div className="home-section">
 
+
+
+      <Count/>
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-7 col-sm-6 col-xs-12">
@@ -86,36 +123,15 @@ export default function Home(props) {
 
 
       <div className="countdown-section">
-        <div className="container">
-          <div className="countdown-section-div">
-            <div className="countdown-section-div-item">
-              <div className="countdown-section-div-item-texts">
-                <h3>34</h3>
-                <h4>ثانیه</h4>
-              </div>
-            </div>
-            <div className="countdown-section-div-item">
-              <div className="countdown-section-div-item-texts">
-                <h3>12</h3>
-                <h4>دقیقه</h4>
-              </div>
-            </div>
-            <div className="countdown-section-div-item">
-              <div className="countdown-section-div-item-texts">
-                <h3>15</h3>
-                <h4>ساعت</h4>
-              </div>
-            </div>
-            <div className="countdown-section-div-item">
-              <div className="countdown-section-div-item-texts">
-                <h3>3</h3>
-                <h4>روز</h4>
-              </div>
-            </div>
 
-          </div>
+
+
+        <div className="container">
+          <Count/>
         </div>
       </div>
+
+
 
       <div className="steps-section">
 
@@ -346,8 +362,6 @@ export default function Home(props) {
         <div className="container-main">
 
             <Swiper
-                spaceBetween={30}
-                slidesPerView={6}
                 modules={[Autoplay]}
                 autoPlay={{
                   delay:2500,
@@ -355,11 +369,29 @@ export default function Home(props) {
                 }}
                 onSlideChange={() => console.log('slide change')}
                 onSwiper={(swiper) => console.log(swiper)}
+                breakpoints={{
+                  450: {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                  },
+                  640: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                  },
+                  868: {
+                    slidesPerView: 4,
+                    spaceBetween: 40,
+                  },
+                  1024: {
+                    slidesPerView: 6,
+                    spaceBetween: 50,
+                  },
+                }}
             >
 
               {
                 brands.map((item)=>{
-                  return  <SwiperSlide><BrandItem img={item.img}></BrandItem></SwiperSlide>
+                  return  (<SwiperSlide><BrandItem img={item.img}></BrandItem></SwiperSlide>)
                 })
               }
             </Swiper>
@@ -404,7 +436,12 @@ export default function Home(props) {
           </div>
         </div>
       </div>
+      <div className={'subscribe-section'}>
+          <div>شماره تلفن خود را برای ما ارسال کنید تا با شما تماس بگیریم</div>
+          <input type={'tel'} placeholder={'شماره تلفن خود را وارد کنید'} onChange={(e)=>setPhoneInput(e)}/>
+          <button onClick={(e)=>sendPhone(e)}>ارسال</button>
 
+      </div>
       <div className="footer-section">
         <div className="container">
           <div className="footer-cs1">
