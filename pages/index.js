@@ -93,10 +93,7 @@ export default function Home(props) {
       </nav>
 
       <div className="home-section">
-
-
-
-      <Count/>
+          
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-7 col-sm-6 col-xs-12">
